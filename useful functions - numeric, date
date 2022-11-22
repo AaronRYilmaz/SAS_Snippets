@@ -1,0 +1,135 @@
+Function name
+
+Syntax4
+
+Definition
+
+Numeric
+
+INT
+
+INT(arg)
+
+Returns the integer portion of argument
+
+LOG
+
+LOG(arg)
+
+Natural logarithm
+
+LOG10
+
+LOG10(arg)
+
+Logarithm to the base 10
+
+MAX
+
+MAX(arg-1,arg-2, arg-n)
+
+Largest nonmissing value
+
+MEAN
+
+MEAN(arg-1,arg-2, arg-n)
+
+Arithmetic mean of nonmissing values
+
+MIN
+
+MIN(arg-1,arg-2, arg-n)
+
+Smallest nonmissing value
+
+N
+
+N(arg-1,arg-2, arg-n)
+
+Number of nonmissing values
+
+NMISS
+
+NMISS(arg-1,arg-2, arg-n)   
+
+Number of missing values
+
+RAND
+
+RAND('UNIFORM')
+
+Generates a random number between 0 and 1 using the uniform distribution5
+
+ROUND
+
+ROUND(arg, round-off-unit)
+
+Rounds to nearest round-off unit
+
+SUM
+
+SUM(arg-1,arg-2, arg-n)
+
+Sum of nonmissing values
+
+Date6
+
+DATEJUL
+
+DATEJUL(julian-date)
+
+Converts a Julian date to a SAS date value
+
+DAY
+
+DAY(date)
+
+Returns the day of the month from a SAS date value
+
+MDY
+
+MDY(month,day,year)
+
+Returns a SAS date value from month, day, and year values
+
+MONTH
+
+MONTH(date)
+
+Returns the month (1-12) from a SAS date value
+
+QTR
+
+QTR(date)
+
+Returns the yearly quarter (1-4) from a SAS date value
+
+TODAY
+
+TODAY()
+
+Returns the current date as a SAS date value
+
+WEEKDAY
+
+WEEKDAY(date)
+
+Returns day of week (1=Sunday) from SAS date value
+
+YEAR
+
+YEAR(date)
+
+Returns year from a SAS date value
+
+YRDIF
+
+YRDIF(start-date,end-date,'AGE')
+
+Computes difference in years between two SAS date values taking leap years into account
+
+4 arg is short for argument, which means a literal value, variable name, or expression.
+
+5 The RAND function can generate random numbers using distributions besides UNIFORM, and each distribution may have optional parameters. To generate the same random numbers each time you run your program, use the CALL STREAMINIT statement.
+
+6 A SAS date value is the number of days since January 1, 1960.
